@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: blank
+title: "Victor Martins Gomes"
 email: victor.martins.777@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal website. Description of my career path.
@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Victor Martins Gomes"
   avatar : "/assets/images/eu_min.png"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "PhD in Geophysics from Universit&acute; de Pau et des Pays de l&apos;Adour."
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -68,6 +68,8 @@ author:
     #   url: "https://instagram.com/"
 
 footer:
+  atom_feed:
+    hide: true
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -102,6 +104,3 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-
-atom_feed:
-  hide: true

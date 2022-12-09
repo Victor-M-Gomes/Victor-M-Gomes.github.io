@@ -35,7 +35,8 @@ img {
 {% assign author = page.author | default: page.authors[0] | default: site.author %}
 {% assign author = site.data.authors[author] | default: author %}
 
-<p align="center">{% if author.email %}<a href="mailto:{{ author.email }}"><meta itemprop="email" content="{{ author.email }}" /><i class="fas fa-fw fa-envelope-square fa-3x" aria-hidden="true"></i></a>{% endif %}{% if author.linkedin %}<a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs"><i class="fab fa-fw fa-linkedin fa-3x" aria-hidden="true"></i></a>{% endif %}      {% if author.github %}<a href="https://github.com/{{ author.github }}" itemprop="sameAs"><i class="fab fa-fw fa-github fa-3x" aria-hidden="true"></i></a>{% endif %}
+<p align="center">{% if author.email %}<a href="mailto:{{ author.email }}"><meta itemprop="email" content="{{ author.email }}" /><i class="fas fa-fw fa-envelope-square fa-3x" aria-hidden="true"></i></a>{% endif %}
+{% if author.linkedin %}<a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs"><i class="fab fa-fw fa-linkedin fa-3x" aria-hidden="true"></i></a>{% endif %}      {% if author.github %}<a href="https://github.com/{{ author.github }}" itemprop="sameAs"><i class="fab fa-fw fa-github fa-3x" aria-hidden="true"></i></a>{% endif %}
 {% if author.rg %}<a href="https://www.researchgate.net/profile/{{ author.rg }}" itemprop="sameAs"><i class="ai fa-fw ai-researchgate ai-3x" aria-hidden="true"></i></a>{% endif %}
 {% if author.orcid %}<a href="https://orcid.org/{{ author.orcid }}" itemprop="sameAs"><i class="ai fa-fw ai-orcid ai-3x" aria-hidden="true"></i></a>{% endif %}
 {% if author.figshare %}<a href="https://figshare.com/authors/{{ author.figshare }}" itemprop="sameAs"><i class="ai fa-fw ai-figshare-square ai-3x" aria-hidden="true"></i></a>{% endif %}

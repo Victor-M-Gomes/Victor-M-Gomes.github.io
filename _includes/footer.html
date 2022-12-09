@@ -10,7 +10,7 @@
       <li><a href="https://www.facebook.com/{{ site.facebook.username }}"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
     {% endif %}
     {% if site.author.github %}
-      <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+      <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-fw fa-github fa-3x" aria-hidden="true"></i> GitHub</a></li>
     {% endif %}
     {% if site.author.gitlab %}
       <li><a href="https://gitlab.com/{{ site.author.gitlab }}"><i class="fab fa-fw fa-gitlab" aria-hidden="true"></i> Gitlab</a></li>
@@ -19,10 +19,22 @@
       <li><a href="https://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
     {% endif %}
 	  {% if site.author.rg %}
-      <li><a href="https://www.researchgate.net/profile/{{ site.author.rg }}"><i class="ai fa-fw ai-researchgate" aria-hidden="true"></i> ResearchGate</a></li>
+      <li><a href="https://www.researchgate.net/profile/{{ site.author.rg }}"><i class="ai fa-fw ai-researchgate ai-3x" aria-hidden="true"></i> ResearchGate</a></li>
     {% endif %}
     {% if site.author.linkedin %}
-      <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
+      <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fab fa-fw fa-linkedin fa-3x" aria-hidden="true"></i> Linkedin</a></li>
+    {% endif %}
+    {% if site.author.orcid %}
+      <li><a href="https://www.orcid.org/{{ site.author.orcid }}"><i class="ai fa-fw ai-orcid ai-3x" aria-hidden="true"></i> Orcid</a></li>
+    {% endif %}
+    {% if site.author.lattes %}
+      <li><a href="http://lattes.cnpq.br/{{ author.lattes }}"><i class="ai fa-fw ai-lattes ai-3x" aria-hidden="true"></i> Lattes</a></li>
+    {% endif %}
+    {% if author.figshare %}
+      <li><a href="https://figshare.com/authors/{{ author.figshare }}"><i class="ai fa-fw ai-figshare-square ai-3x" aria-hidden="true"></i> Figshare</a></li>
+    {% endif %}
+    {% if author.email %}
+      <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope-square fa-3x" aria-hidden="true"></i> E-mail</a></li>
     {% endif %}
     {% unless site.atom_feed.hide %}
       <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>

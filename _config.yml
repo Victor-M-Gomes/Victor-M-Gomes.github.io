@@ -30,6 +30,7 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Europe/Paris # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+icon: "/assets/images/favicon.svg"
 
 include:
   - _pages
@@ -59,24 +60,32 @@ author:
   name   : "Victor Martins Gomes"
   avatar : "/assets/images/eu_min.png"
   bio    : "PhD in Geophysics from Universit&acute; de Pau et des Pays de l&apos;Adour."
+  location : "Rio de Janeiro/Brazil"
+  email : victor.martins.777@gmail.com
+  lattes : 9340885682146998
+  github : Victor-M-Gomes
+  linkedin : victor-m-gomes
+  rg : Victor_Martins5
+  orcid : 0000-0001-7733-2239
+  figshare : Victor_Martins_Gomes/4113094
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Victor-M-Gomes"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/victor-m-gomes"
 
 footer:
-  atom_feed:
-    hide: true
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Victor-M-Gomes"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/victor-m-gomes"
+
+rss_icon: false
 
 defaults:
   # _posts

@@ -18,12 +18,15 @@
     {% if site.author.bitbucket %}
       <li><a href="https://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
     {% endif %}
-	{% if site.author.rg %}
+	  {% if site.author.rg %}
       <li><a href="https://www.researchgate.net/profile/{{ site.author.rg }}"><i class="ai fa-fw ai-researchgate" aria-hidden="true"></i> ResearchGate</a></li>
     {% endif %}
-  {% unless site.atom_feed.hide %}
+    {% if site.author.linkedin %}
+      <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
+    {% endif %}
+    {% unless site.atom_feed.hide %}
       <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
-  {% endunless %}
+    {% endunless %}
   </ul>
 </div>
 

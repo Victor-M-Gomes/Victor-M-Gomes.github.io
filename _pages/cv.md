@@ -1,5 +1,5 @@
 ---
-permalink: /Curriculum Vitae/
+permalink: /cv/
 title: "Background"
 excerpt: "About my academic and professional experience."
 author_profile: false

@@ -10,8 +10,8 @@ toc: true
 
   * Experience in the field of digital signal processing and multiresolution analysis
   * Base level knowledge with shell scripting in Linux
-  * **Programming languages**: MATLAB, FORTRAN, Python, \LaTeX, shell, C and html.
-  * **Software Knowledge**: Matlab, Petrel (Basic knowledge gained during SPOC), OpendTect, Surfer 11, QGIS, Oasis Montaj - Geosoft, HampsonRussell, Seismic Unix, VISTA - Schlumberger
+  * **Programming languages**: MATLAB, FORTRAN, Python, \LaTeX, C++ and shell.
+  * **Software Knowledge**: Matlab, OpendTect, Surfer 11, QGIS, Oasis Montaj - Geosoft, HampsonRussell, Seismic Unix, VISTA - Schlumberger
 
 ## Education
 
@@ -82,7 +82,7 @@ EXPOGEF. (2017)
 
   * SEG (Society of Exploration Geophysicists)
   * EAGE (European Association of Geoscientists and Engineers)
-  * SBGF (Brazilian Geophysical Society)
+  * EGU (European Geosciences Union)
 
 
 

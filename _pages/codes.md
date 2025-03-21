@@ -6,9 +6,11 @@ author_profile: true
 classes: wide
 ---
 
-## List of codes 
+## List of codes
 
-I am currently organizing my codes in order to make them available to the public. They will be sequentially published here. Hopefully that won't take forever.
+You can may check my GitHub page to find the open source codes I work on and all other updates on this side.
+
+I am currently a member of the developing team of the GEOS multiphysics simulator, working directly with the wave propagation solver. See the [GEOS project webpage](https://www.geos.dev),as well as the [documentation website](https://geosx-geosx.readthedocs-hosted.com/en/latest/index.html), for more information on this large set of physical solvers focused on tackling carbon capture and storage problems.
 
 <!-- To centralize the picture -->
 <style>

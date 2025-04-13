@@ -56,11 +56,25 @@ permalink: /publications/
   </tr>
 </table>
 
+#### In-preparation
+
+<table style="width:100%">
+  <tr>
+    <td><p>
+		<b>Effect of layer thickness and fluid conductivity contrasts
+on seismoelectric signals : controlled laboratory experiments and numerical simulations.</b>
+		<br/>
+		V. M. Gomes, D. Brito, S. Garambois, M. Dietrich, C. Bordes, H. Barucq
+		</p>	
+	</td>
+  </tr>
+</table>
+
 ## Inproceedings (Conference) papers
 
 <table style="width:100%">
   <tr>
-    <th rowspan="2">2025:</th>
+    <th>2025:</th>
     <td><p>
 		<b>Experimental and numerical study of the seismo-electromagnetic signals created at thin porous-porous interfaces.</b>
 		<br/>
@@ -72,7 +86,7 @@ permalink: /publications/
 	</td>
   </tr>
   <tr>
-    <th rowspan="2">2025:</th>
+    <th>2025:</th>
     <td><p>
 		<b>Seismoelectric conversion at poroelastic/elastic interfaces and the role of dielectric permittivity : experimental and numerical analysis.</b>
 		<br/>
@@ -84,7 +98,7 @@ permalink: /publications/
 	</td>
   </tr>
   <tr>
-    <th rowspan="2">2022:</th>
+    <th>2022:</th>
     <td><p>
 		<b>Quantitative comparison of seismoelectric laboratory data with numerical modelling based on electrokinetic theory.</b>
 		<br/>
@@ -96,7 +110,7 @@ permalink: /publications/
 	</td>
   </tr>
   <tr>
-    <th rowspan="2">2021:</th>
+    <th>2021:</th>
     <td><p>
 		<b>Experiments and modelling of seismoelectrics in the ultrasonic range : a comparison with electrokinetic theory.</b>
 		<br/>
@@ -151,20 +165,6 @@ permalink: /publications/
 		<i>VI Brazilian Symposium on Geophysics</i>
 		, October 2014, Porto Alegre, Brazil. url:
 		<a href="https://drive.google.com/file/d/1S5tcWievyEajcbxKS2wrqmgMHLsI4Pzz/view?usp=sharing">link</a>
-		</p>	
-	</td>
-  </tr>
-</table>
-
-#### In-preparation
-
-<table style="width:100%">
-  <tr>
-    <td><p>
-		<b>Effect of layer thickness and fluid conductivity contrasts
-on seismoelectric signals : controlled laboratory experiments and numerical simulations.</b>
-		<br/>
-		V. M. Gomes, D. Brito, S. Garambois, M. Dietrich, C. Bordes, H. Barucq
 		</p>	
 	</td>
   </tr>
